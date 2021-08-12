@@ -4,8 +4,692 @@ html, body {
 }
 
 header {
-    color: #121728;
-   
+    background: #081920;
+    width: 100%;
+    height: 640px;
+    margin: 0 auto;
+}
+
+#redetemplatesstar {
+	top: 0px;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+	z-index: 0;
+    height: 450px;
+}
+
+span#star1:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 4px;
+    font-family: Arial;
+    top: 57px;
+    position: absolute;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star2:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 19px;
+    font-family: Arial;
+    top: 89px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star3:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 37px;
+    font-family: Arial;
+    top: 7px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 6s ease infinite alternate;
+}
+
+span#star4:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 57px;
+    font-family: Arial;
+    top: 37px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 4s ease infinite alternate;
+}
+
+span#star5:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 67px;
+    font-family: Arial;
+    top: 87px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 2s ease infinite alternate;
+}
+
+span#star6:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 107px;
+    font-family: Arial;
+    top: 57px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star7:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 117px;
+    font-family: Arial;
+    top: 117px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 1s ease infinite alternate;
+}
+
+span#star8:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 127px;
+    font-family: Arial;
+    top: 7px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star9:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 160px;
+    font-family: Arial;
+    top: 57px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star10:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 167px;
+    font-family: Arial;
+    top: 137px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star11:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 180px;
+    font-family: Arial;
+    bottom: 89px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 3s ease infinite alternate;
+}
+
+span#star12:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 177px;
+    font-family: Arial;
+    top: 177px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star13:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 177px;
+    font-family: Arial;
+    top: 87px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star14:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 197px;
+    font-family: Arial;
+    top: 27px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 6s ease infinite alternate;
+}
+
+span#star15:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 227px;
+    font-family: Arial;
+    top: 167px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star16:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 228px;
+    font-family: Arial;
+    top: 107px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 4s ease infinite alternate;
+}
+
+span#star17:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 247px;
+    font-family: Arial;
+    top: 77px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 1s ease infinite alternate;
+}
+
+span#star18:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 256px;
+    font-family: Arial;
+    top: 203px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star19:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 277px;
+    font-family: Arial;
+    top: 137px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 6s ease infinite alternate;
+}
+
+span#star20:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 328px;
+    font-family: Arial;
+    top: 207px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star21:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 338px;
+    font-family: Arial;
+    top: 167px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 2s ease infinite alternate;
+}
+
+span#star22:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 340px;
+    font-family: Arial;
+    top: 95px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star23:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 377px;
+    font-family: Arial;
+    top: 237px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star24:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 451px;
+    font-family: Arial;
+    bottom: 116px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star25:before {
+    content: &quot;\2726&quot;;
+    font-size: 19px;
+    color: #B3B7B8;
+    right: 521px;
+    font-family: Arial;
+    bottom: 15px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 8s ease infinite alternate;
+}
+
+span#star26:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    right: 570px;
+    font-family: Arial;
+    top: 240px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star27:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    right: 490px;
+    font-family: Arial;
+    top: 171px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star28:before {
+    content: &quot;\2726&quot;;
+    font-size: 8px;
+    color: #e5cd29;
+    left: 730px;
+    font-family: Arial;
+    top: 111px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 1s ease infinite alternate;
+}
+
+span#star29:before {
+    content: &quot;\2726&quot;;
+    font-size: 22px;
+    color: #F1F1F1;
+    left: 682px;
+    font-family: Arial;
+    bottom: 86px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 2s ease infinite alternate;
+}
+
+span#star30:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    left: 641px;
+    font-family: Arial;
+    top: 191px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 6s ease infinite alternate;
+}
+
+span#star31:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    left: 611px;
+    font-family: Arial;
+    bottom: 115px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 3s ease infinite alternate;
+}
+
+span#star32:before {
+    content: &quot;\2726&quot;;
+    font-size: 19px;
+    color: #B3B7B8;
+    left: 435px;
+    font-family: Arial;
+    top: 85px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 5s ease infinite alternate;
+}
+
+span#star33:before {
+    content: &quot;\2726&quot;;
+    font-size: 9px;
+    color: #e5cd29;
+    left: 479px;
+    font-family: Arial;
+    bottom: 53px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 8s ease infinite alternate;
+}
+
+span#star34:before {
+    content: &quot;\2726&quot;;
+    font-size: 38px;
+    color: #F1F1F1;
+    left: 196px;
+    font-family: Arial;
+    top: 123px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 4s ease infinite alternate;
+}
+
+span#star35:before {
+    content: &quot;\2726&quot;;
+    font-size: 19px;
+    color: #B3B7B8;
+    left: 191px;
+    font-family: Arial;
+    top: 67px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 7s ease infinite alternate;
+}
+
+span#star36:before {
+    content: &quot;\2726&quot;;
+    font-size: 19px;
+    color: #B3B7B8;
+    left: 360px;
+    font-family: Arial;
+    bottom: -85px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+	animation: estrela 1s ease infinite alternate;
+}
+
+span#star37:before {
+	animation: estrela 5s ease infinite alternate;
+    content: &quot;\2726&quot;;
+    font-size: 19px;
+    color: #B3B7B8;
+    left: 116px;
+    font-family: Arial;
+    top: 285px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star1:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 415px;
+    font-family: Arial;
+    bottom: 122px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+
+span.star2:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 515px;
+    font-family: Arial;
+    bottom: 21px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star3:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 535px;
+    font-family: Arial;
+    top: 214px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star4:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 655px;
+    font-family: Arial;
+    top: 274px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star5:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 675px;
+    font-family: Arial;
+    top: 134px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star6:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 735px;
+    font-family: Arial;
+    bottom: 31px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star7:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 855px;
+    font-family: Arial;
+    top: 273px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+span.star8:before {
+    content: &quot;\2738&quot;;
+    font-size: 4px;
+    color: #eef2f7;
+    left: 905px;
+    font-family: Arial;
+    top: 163px;
+    position: absolute;
+    z-index: 9;
+    text-transform: none;
+}
+
+#planet {
+    background: url(https://1.bp.blogspot.com/-nv11uoLckyo/XCFLJODD1GI/AAAAAAAADTc/xBrP7hVXiDAJ6zWMo5D-mPWyvrq3Em0tQCLcBGAs/s1600/redetemplates-terra.gif) no-repeat;
+    height: 200px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 80px #184372;
+    right: 157px;
+    bottom: 5px;
+    position: absolute;
+    width: 200px;
+    background-size: 201px;
+    opacity: 0.9;
+    border-radius: 50%;
+    float: right;
+	transform: rotate(157deg);
+}
+
+#planet-mercury {
+    background: url(https://4.bp.blogspot.com/-0ydQb5SlMBk/XCvtiuiDq9I/AAAAAAAADUo/Nir2P9vriFg02GKpBuNZiGq6XkunvuJKACLcBGAs/s1600/redetemplates-mecurio.png) no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 255px;
+}
+
+#planet-nave {
+    background: url(https://1.bp.blogspot.com/-hetMglyPMTk/XCF1qT_wbdI/AAAAAAAADUA/vcErAseVn7sVl4uJUK5WQTaOG7YJyMAZwCLcBGAs/s1600/redetemplates-foguete.png) no-repeat;
+    height: 46px;
+    left: 285px;
+    bottom: 162px;
+    position: absolute;
+	    top: 255px;
+    width: 46px;
+    background-size: 46px;
+    opacity: 0.9;
+}
+
+#ateroide {
+    background: url(https://4.bp.blogspot.com/-YGjhrM-zfHc/XCvrmuaTJfI/AAAAAAAADUc/rfv35TQkwygze9W1hE2dIhr78pBlGvvlACLcBGAs/s1600/planet%2Bvector.png) no-repeat;
+    width: 43px;
+    height: 46px;
+    bottom: -141px;
+    background-position: -9px -60px;
+    background-size: 61px;
+    position: absolute;
+    left: 50px;
+}
+
+#redetemplates-sb {
+	animation: animacao 5s ease infinite alternate;
+    content: &quot;&quot;;
+}
+
+@keyframes animacao {
+   from { 
+    bottom: 370px;
+    box-shadow: 0px 0px 346px 114px #BFAE28;
+    position: absolute;
+    right: 75px;
+    transform: rotate(50deg);
+  }
+   to { 
+    bottom: 370px;
+    box-shadow: 0px 0px 346px 114px #7d742d;
+    position: absolute;
+    right: 65px;
+    transform: rotate(50deg);
+  }
+}
+
+@keyframes estrela {
+   from { 
+    opacity: 0.2;
+  }
+   to { 
+    opacity: 1;
+  }
+}
+
+#redetemplates-tutorial {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    background: #F04D4E;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10pt;
+    border-radius: 5px;
+    font-family: Arial;
+    top: 215px;
+    left: 275px;
+    font-weight: normal;
 }
 
 #perfil-wrapper .info1 span {
