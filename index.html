@@ -1,81 +1,19 @@
-<!DOCTYPE html> 
-<html> 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Login Page </title>
-<style> 
-Body {
-  font-family: Calibri, Helvetica, sans-serif;
-  background-color: pink;
-}
-button { 
-       background-color: #4CAF50; 
-       width: 100%;
-        color: orange; 
-        padding: 15px; 
-        margin: 10px 0px; 
-        border: none; 
-        cursor: pointer; 
-         } 
- form { 
-        border: 3px solid #f1f1f1; 
-    } 
- input[type=text], input[type=password] { 
-        width: 100%; 
-        margin: 8px 0;
-        padding: 12px 20px; 
-        display: inline-block; 
-        border: 2px solid green; 
-        box-sizing: border-box; 
-    }
- button:hover { 
-        opacity: 0.7; 
-    } 
-  .cancelbtn { 
-        width: auto; 
-        padding: 10px 18px;
-        margin: 10px 5px;
-    } 
-      
-   
- .container { 
-        padding: 25px; 
-        background-color: lightblue;
-    } 
-</style> 
-</head>  
-<body>  
-    <center> <h1> Student Login Form </h1> </center> 
-    <form method='post' name='login'>
-        <div class="container"> 
-            <label>Username : </label> 
-            <div style="background: red; float: left;width: 100px;height: 50px;"contenteditable="true" type="text" placeholder="Enter Username" id='email' name='usuario' required></div>
-            <label>Password : </label> 
-            <div style="background: blue;float: left;width: 100px;height: 50px;" contenteditable="true" type="password" placeholder="Enter Password" id='password' name='senha' onkeydown='search(this)' required></div>
-            <button type="submit" onclick='Login(this.form)'>Login</button> 
-            <input type="checkbox" checked="checked"> Remember me 
-            <button type="button" class="cancelbtn"> Cancel</button> 
-            Forgot <a href="#"> password? </a> 
-        </div> 
-    </form>
-<script type="text/javascript">
-function Login() {
-	var done=0;
-		var usuario = document.getElementsByName('usuario')[0].value;
-		usuario=usuario.toLowerCase();
-		var senha= document.getElementsByName('senha')[0].value;
-		seha=senha.toLowerCase();
-		if (usuario=="rsantana" && senha=="ruds") {
-			document.getElementById('login').style.display = 'none';
-			document.getElementById('conteudobody').style.display = 'block';
-			document.getElementById('rsantana').style.display = 'block';
-			done=1;
-		}
-if (done==0) { document.getElementById('errologin').style.display = 'block'; ;
-	}
-}
-</script>   
-</body>   
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<title>Portfólio - Rudnick Stephan</title>
+	</head>
+	<body>
+	<header>
+		<div id="header-container">
+			<div id="header-wrapper">
+				<div id="perfil-wrapper">
+					Rudnick Stephan
+				</div>
+			</div>
+		</div>
+	</header>
+	</body>
 </html>
-
- 
