@@ -1,5 +1,16 @@
 html, body {
-  padding: 0;
-  margin: 0;
-  background: #121728;
+    padding: 0;
+    margin: 0;
+    background: #121728;
+}
+
+header {
+    color: #c20000;
+   
+}
+
+#perfil-wrapper .info1 span {
+    background: #c20000;
+    color: white;
+    padding: 0 5px;
 }
