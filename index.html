@@ -31,7 +31,7 @@
 <div id='menu-wrapper'>
 <ul>
 <li class='ativado'><a href='javascript:void(Rede Templates);' onclick='location.href=&apos;/&apos;;' title='Página Inícial'>Página Inícial</a></li>
-<li><a class='acessarpainel tooltip' href='javascript:void(Rede Templates);' onclick='ScrollTo(&quot;painel&quot;), acessarpainel()' title='nosso painel de controle, executa apenas na página inícial'>painel de controle</a></li>
+<li><a class='acessarpainel tooltip' href='javascript:void(Rede Templates);' onclick='ScrollTo("painel"), acessarpainel()' title='nosso painel de controle, executa apenas na página inícial'>painel de controle</a></li>
 <li><a href='javascript:void(Rede Templates);' onclick='location.href=&apos;/2014/12/fazer-pedido.html&apos;;' title='Fazer Pedidos'>Fazer Pedido</a></li>
 <li><a href='javascript:void(Rede Templates);' onclick='location.href=&apos;/2015/07/publicidade.html&apos;;' title='Publicidade'>Publicidade</a></li>
 </ul>
@@ -50,11 +50,11 @@
 
 $(document).ready(
   function() { 
-   $(&quot;html&quot;).niceScroll({
-	cursorwidth:&quot;10px&quot;,
-	cursorcolor: &quot;#34454F&quot;,
-	cursorborderradius:&quot;0px&quot;,
-	cursorborder:&quot;0px&quot;,
+   $("html").niceScroll({
+	cursorwidth:"10px",
+	cursorcolor: "#34454F",
+	cursorborderradius:"0px",
+	cursorborder:"0px",
    });
   }
 );
