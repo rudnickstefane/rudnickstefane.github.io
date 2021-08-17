@@ -111,7 +111,7 @@ header {
 	border-radius: 19px 0px 0px 0px;
 }
 
-#redetemplatesstar {
+#rudnickstar {
 	top: 0px;
     position: absolute;
     width: 100%;
@@ -746,7 +746,7 @@ span.star8:before {
     left: 50px;
 }
 
-#redetemplates-sb {
+#rudnick-sb {
 	animation: animacao 5s ease infinite alternate;
     content: "";
 }
@@ -775,22 +775,6 @@ span.star8:before {
    to { 
     opacity: 1;
   }
-}
-
-#redetemplates-tutorial {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px;
-    position: absolute;
-    background: #F04D4E;
-    color: #fff;
-    text-decoration: none;
-    font-size: 10pt;
-    border-radius: 5px;
-    font-family: Arial;
-    top: 215px;
-    left: 275px;
-    font-weight: normal;
 }
 
 /* -( Menu/Topo )-
@@ -834,7 +818,7 @@ color: #FFFFFF;
 color: #FFFFFF;
 }
 
-#redetemplates-intro {
+#rudnick-intro {
     position: absolute;
 	top: 221pt;
     left: 54pt;
@@ -844,23 +828,23 @@ color: #FFFFFF;
 	list-style: none;
 }
 
-#redetemplates-intro li.redetemplates-inter:before {
+#rudnick-intro li.rudnick-inter:before {
     content: "Olá Aventureiro(a)!";
     font-size: 63pt;
 }
 
-#redetemplates-intro li.redetemplates-bemvindo:before {
+#rudnick-intro li.rudnick-bemvindo:before {
 	content: "Seja muito bem-vindo ao meu Portfólio";
     font-size: 25pt;
 }
 
-#redetemplates-intro li.redetemplates-antigo:before {
+#rudnick-intro li.rudnick-antigo:before {
     content: "Eu me chamo Rudnick e serei seu guia por aqui...";
     font-size: 15pt;
     color: #999CA3;
 }
 
-#redetemplates-intro li.redetemplates-astronauta {
+#rudnick-intro li.rudnick-astronauta {
     border: 5px solid #fff;
     border-radius: 50%;
     width: 200px;
@@ -874,7 +858,7 @@ color: #FFFFFF;
     border-style: dashed;
 }
 
-#redetemplates-intro li.redetemplates-cobrir {
+#rudnick-intro li.rudnick-cobrir {
     width: 285px;
     background: #EEF2F7;
     left: 409px;
@@ -883,7 +867,7 @@ color: #FFFFFF;
     height: 130px;
 }
 
-#redetemplates-intro li.redetemplates-astronauta:before {
+#rudnick-intro li.rudnick-astronauta:before {
     content: "";
     width: 126px;
     height: 123px;
