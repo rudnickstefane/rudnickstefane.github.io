@@ -691,3 +691,105 @@ span.star8:before {
     left: 275px;
     font-weight: normal;
 }
+
+/* -( Menu/Topo )-
+----------------------------------------------- */
+#menu-wrapper {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 539px;
+    float: right;
+    right: 0;
+    z-index: 2;
+}
+
+#menu-wrapper .ativado a {
+	color: #FFFFFF;
+}
+
+#menu-wrapper ul {
+padding: 0;
+margin: 0;
+}
+#menu-wrapper li {
+list-style: none;
+float: left;
+margin-right: 10px;
+}
+#menu-wrapper a {
+text-decoration: none;
+color: #97ACB9;
+font-size: 15px;
+padding-left: 8px;
+padding-right: 8px;
+float: left;
+transition: all 0.24s ease-in-out;
+}
+#menu-wrapper li:hover {
+color: #FFFFFF;
+}
+#menu-wrapper li a:hover {
+color: #FFFFFF;
+}
+
+#redetemplates-intro {
+    position: absolute;
+	top: 221pt;
+    left: 54pt;
+	color: #fff;
+	font-family: "Open Sans";
+	font-weight: lighter;
+	list-style: none;
+}
+
+#redetemplates-intro li.redetemplates-inter:before {
+    content: "Olá Internauta!";
+    font-size: 63pt;
+}
+
+#redetemplates-intro li.redetemplates-bemvindo:before {
+	content: "Seja muito bem-vindo a Rede Templates";
+    font-size: 25pt;
+}
+
+#redetemplates-intro li.redetemplates-antigo:before {
+    content: "O Melhor e mais antigo portal de Templates do Brasil.";
+    font-size: 15pt;
+    color: #999CA3;
+}
+
+#redetemplates-intro li.redetemplates-astronauta {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+    left: 408px;
+    top: 153px;
+    position: absolute;
+    border-color: #1A2A30;
+    padding: 50px;
+    height: 200px;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+#redetemplates-intro li.redetemplates-cobrir {
+    width: 285px;
+    background: #EEF2F7;
+    left: 409px;
+    position: absolute;
+    top: 325px;
+    height: 130px;
+}
+
+#redetemplates-intro li.redetemplates-astronauta:before {
+    content: "";
+    width: 126px;
+    height: 123px;
+    z-index: 2;
+    position: absolute;
+    background: url(https://1.bp.blogspot.com/-8ZzrBP0MIgQ/XCEp3ZvX-PI/AAAAAAAADTE/75bH4sK6WZYUBG_KQyoMckSDDMVkCQyHwCLcBGAs/s1600/redetemplates-astronauta.png) no-repeat;
+    left: 91px;
+    background-size: 137px;
+}
+
