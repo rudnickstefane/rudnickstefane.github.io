@@ -26,6 +26,91 @@ header {
     margin: 0 auto;
 }
 
+#header-border {
+    background: #EEF2F7;
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin-left: -6px;
+    bottom: -580px;
+    border-radius: 44%;
+    position: relative;
+}
+
+#header-border:before {
+    content: "";
+    position: absolute;
+    right: -6px;
+    width: 167px;
+    bottom: -14px;
+    background: #eef2f7;
+    height: 100px;
+}
+
+#header-brc {
+    background: #EEF2F7;
+    width: 151px;
+    height: 100px;
+    border-radius: 39px 39px 0px 0px;
+    bottom: 15px;
+    position: absolute;
+    left: 177px;
+    z-index: 0;
+}
+
+#header-brc-drt {
+    background: #EEF2F7;
+    width: 151px;
+    height: 54px;
+    border-radius: 39px 39px 0px 0px;
+    bottom: 61px;
+    position: absolute;
+    right: 426px;
+    z-index: 1;
+}
+
+#header-brc-drtf {
+    background: #bebebe;
+    width: 151px;
+    height: 100px;
+    border-radius: 39px 39px 0px 0px;
+    bottom: 9px;
+    position: absolute;
+    right: 478px;
+}
+
+#header-brc:before {
+    content: "";
+    background: #B4B7BB;
+    width: 90px;
+    height: 4px;
+    border-radius: 100%;
+    left: 31px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+#header-brc-dlr {
+    background: url(https://4.bp.blogspot.com/-tog6ecEMRY0/XCFc-cCoU9I/AAAAAAAADT0/AYeTFUTby3g4gVJ_uZoPf2wbQK497kxKgCLcBGAs/s1600/redetemplates-rachadura.png) no-repeat;
+    width: 52px;
+    height: 112px;
+    border-radius: 39px 39px 0px 0px;
+    bottom: -12px;
+    position: absolute;
+    right: 183px;
+}
+
+#header-brc-drtf:before {
+    content: "";
+    background: #eef2f7;
+    width: 158px;
+    height: 100px;
+    left: 0px;
+    position: absolute;
+    margin-top: 9px;
+	border-radius: 19px 0px 0px 0px;
+}
+
 #redetemplatesstar {
 	top: 0px;
     position: absolute;
