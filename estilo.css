@@ -3,6 +3,22 @@ html, body {
     margin: 0;
 }
 
+body {
+	background: #EEF2F7;
+	animation: body 5s !important;
+	font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    color: #656565;
+}
+@-webkit-keyframes body{
+0%{
+opacity:0;
+}
+100%{
+opacity:1;
+}
+}
+
 header {
     background: #081920;
     width: 100%;
