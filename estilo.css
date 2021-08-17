@@ -760,17 +760,17 @@ color: #FFFFFF;
 }
 
 #redetemplates-intro li.redetemplates-inter:before {
-    content: "Olá Internauta!";
+    content: "Olá Aventureiro(a)!";
     font-size: 63pt;
 }
 
 #redetemplates-intro li.redetemplates-bemvindo:before {
-	content: "Seja muito bem-vindo a Rede Templates";
+	content: "Seja muito bem-vindo ao meu Portfólio;
     font-size: 25pt;
 }
 
 #redetemplates-intro li.redetemplates-antigo:before {
-    content: "O Melhor e mais antigo portal de Templates do Brasil.";
+    content: "Eu me chamo Rudnick e serei seu guia por aqui...";
     font-size: 15pt;
     color: #999CA3;
 }
