@@ -14,3 +14,7 @@ html {
     --bg: #0e1212;
     --tags: #515152;
 }
+
+.tags {
+    var(--tags);
+}
