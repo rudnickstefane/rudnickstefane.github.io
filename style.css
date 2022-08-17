@@ -17,4 +17,6 @@ html {
 
 .tags {
     color: var(--tags);
+    font-style: italic;
+    font-size: 0.96rem;
 }
