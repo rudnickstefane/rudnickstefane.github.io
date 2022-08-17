@@ -20,3 +20,15 @@ html {
     font-style: italic;
     font-size: 0.96rem;
 }
+
+span.top-tag:after {
+    content: '<body>';
+    display: flex;
+    margin-left: 20px;
+}
+
+span.bottom-tag:before {
+    content: '</body>';
+    display: flex;
+    margin-left: 20px;
+}
