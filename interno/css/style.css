@@ -1,3 +1,6 @@
+/* ==============================================|
+============/ CONFIGURAÇÕES DESKTOP /============|
+=============================================== */
 /* Tecnologias */
 .tecnologias {
     width: 82%;
@@ -370,26 +373,6 @@ header {
     margin: 25px 17px;
 }
 
-.foto:before {
-    content: '';
-    /* background: #223238; */
-    border-radius: 60% 10%;
-    width: 255.5px;
-    height: 255.5px;
-    position: absolute;
-    rotate: 26deg;
-}
-
-.foto:after {
-    content: '';
-    /* background: linear-gradient(45deg, #31484f, #ffffff00); */
-    border-radius: 60% 10%;
-    width: 255.5px;
-    height: 255.5px;
-    position: absolute;
-    rotate: 77deg;
-}
-
 .foto img {
     border-radius: 60% 10% 58% 10%;
     border: 2px solid #5f737e;
@@ -559,3 +542,123 @@ footer {
       background-position-x: -200%;
     }
   }
+
+/* =============================================|
+============/ CONFIGURAÇÕES MOBILE /============|
+============================================== */
+@media only screen and (max-width: 767px) {
+    .apresentacao {
+        padding: 20px 0;
+        padding-right: 20px;
+        transform: scale(0.6);
+    }
+
+    .desenvolvimento {
+        width: 410px;
+        left: 21%;
+        font-size: 10px;
+        bottom: 20px;
+    }
+
+    .topo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sociaisfixed {
+        left: 16%;
+        transform: translateX(-50%);
+    }
+
+    .sociaisfixed ul li{
+        margin-top: -2px;
+    }
+
+    .rSFM i {
+        font-size: 17pt;
+    }
+
+    .emailfixed {
+        right: 16%;
+        transform: translateX(50%);
+    }
+
+    /* Tags internas (html, head, body etc..) */
+    .tags {
+        font-size: 0.8rem;
+    }
+
+    .cent h1 {
+        font-size: 20px;
+    }
+
+    .tecnologias {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .tecnologias span {
+        width: 44%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .tecnologias span i {
+        font-size: 20pt;
+    }
+
+    #sobre, #projetos {
+        width: 60%;
+        justify-items: center;
+        margin-top: 65px;
+    }
+
+    #projetos {
+        display: grid;
+        justify-items: center;
+    }
+
+    .cent h2 {
+        font-size: 10pt;
+        margin: 10px 0px 10px;
+    }
+
+    .cent h2:after {
+        width: 235px;
+    }
+
+    .box-projetos {
+        margin-bottom: 25px;
+    }
+
+    .cent p {
+        font-size: 11px;
+    }
+
+    .foto {
+        width: 188.5px;
+        height: 188.5px;
+        border: 3px solid var(--ciano);
+        margin: 25px 0px;
+    }
+
+    .foto img {
+        width: 171.5px;
+    }
+
+    span.part1:before {
+        margin-left: 8px;
+        height: 778px;
+    }
+
+    .eF a {
+        font-size: 10px;
+    }
+
+    .tecnologia span {
+        font-size: 9px;
+    }
+}
