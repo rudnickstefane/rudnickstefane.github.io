@@ -1,152 +1,368 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio &#187; Rudnick Stefane - Desenvolvedor Full Stack</title>
-    <link rel="shortcut icon" href="/" type="image/x-icon">
-    <link href="./interno/css/style.css" rel="stylesheet">
+    <link rel="icon" href="./src/assets/img/favicon.png" type="image/x-icon" sizes="16x16" />
+    <link href="./src/styles/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,900">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c62663f66b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./src/assets/js/script.js"></script>
 </head>
+
 <body>
-    <span class="tags top-tag">&lt;html&gt;</span>
-    <header>
-        <div class="fundo-header">
-            <span class="fundo"></span>
-            <span class="fundo ftipox"></span>
-            <span class="fundo ftipoy"></span>
-            <span class="fundo ftipoz"></span>
-        </div>
-        <div class="topo">
-            <div class="apresentacao">
-                <h3>&lt;<span class="rosa-escuro">script</span> <span class="verde">type</span>=<span style="color: #fffb6b;">"text/javascript"</span>&gt;</h3>
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;(<span class="ciano">function</span> <span class="cobre" style="font-size: 1.5rem;">Olá</span>(){</h3>
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="roxo">var</span><span style="font-size: 1.5rem;"> sou </span><span class="rosa-escuro">=</span> <span class="cobre h1">'Rudnick Stefane'</span>;</h3>
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="roxo">var</span><span style="font-size: 1.5rem;"> e </span><span class="rosa-escuro">=</span> <span class="cobre">'Eu tenho uma louca paixão por programação.'</span>;</h3>
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;}</h3>
-                <h3>&nbsp;&nbsp;&nbsp;&nbsp;)</h3>
-                <h3>&lt;/<span class="rosa-escuro">script</span>&gt;<span id="animacao"></span></h3>
+    <div class="pointer"></div>
+    <header class="header-with-bubbles">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="bold-text">
+                        &lt / Rudnick</span> <span class="light-text">Stefane &gt</span>
+                    <div id="developer-text" class="developer-text">DESENVOLVEDOR FULL-STACK</div>
+                </div>
+
+                <nav class="navbar">
+                    <ul class="navbar-nav custom-flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="welcome-message text-center">
+                <h2>Bem-vindo ao Meu <span class="text-purple">Portfólio</span></h2>
+                <p>Vamos <span class="text-purple">codificar o futuro</span> juntos!</p>
+                <a href="#sobre" class="btn-scroll-down">
+                    <i class="fas fa-arrow-down"></i>
+                </a>
             </div>
         </div>
     </header>
-    <div class="sociaisfixed">
-        <ul class="rSFM">
-            <li><a href="https://github.com/rudnickstefane" aria-label="GitHub" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://www.instagram.com/rudnickstefane" aria-label="Instagram" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/rudnicks" aria-label="Linkedin" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
-    </div>
-    <div class="emailfixed">
-        <div class="eF">
-            <a href="mailto:rudnick.nogueira@gmail.com">rudnick.nogueira@gmail.com</a>
-        </div>
-    </div>
-    <span class="tags top-tag headertag"></span>
-    <span class="tags top-tag bodytag tagfixed"></span>
-    <div class="meio">
-        <div class="desenvolvimento">Portfólio em constante evolução...</div>
-        <div class="cent" id="conhecimento">
-            <h1>Competências <span class="ciano">& Habilidades</span></h1>
-            <div class="tecnologias">
-                <span><i class="fa-brands fa-html5" style="color: orange;"></i>HTML5</span>
-                <span>xHTML</span>
-                <span><i class="fa-brands fa-css3-alt" style="color: #00abde;"></i>CSS3</span>
-                <span><i class="fa-brands fa-sass" style="color: #df6195;"></i>Sass</span>
-                <span><i class="fa-regular fa-file-code" style="color: #acd224;"></i>Stylus</span>
-                <span><i class="fa-brands fa-less" style="color: #105084;"></i>Less</span>
-                <span><i class="fa-brands fa-square-js" style="color: #ffdf1e;"></i>JavaScript</span>
-                <span><i class="fa-brands fa-quora"></i>jQuery</span>
-                <span><i class="fa-brands fa-bootstrap" style="color: #9101f9;"></i>Bootstrap</span>
-                <span>GraphQL</span>
-                <span><i class="fa-brands fa-node" style="color: #68ce3b;"></i>Node.js</span>
-                <span><i class="fa-solid fa-server"></i>Gateway</span>
-                <span>APIs REST</span>
-                <span><i class="fa-solid fa-database" style="color: #009cbf;"></i>Protheus</span>
-                <span><i class="fa-solid fa-f" style="color: #dece12;background: #343022;border: 3px solid #e4e71d;padding: 11px 0px;width: 50px;border-radius: 5px;font-size: 20px;transform: scale(0.7);"></i>FireWorks CS6</span>
-                <span><i class="fa-solid fa-feather" style="color: #f13906;"></i>Apache</span>
-                <span>AppServer</span>
-            </div>
-        </div>
-        <div class="cent" id="sobre">
-            <h1>Sobre</h1>
-            <div class="sobremais">
-                <h2>Um pouco sobre mim</h2>
-                <span class="part1">
-                    <div class="foto"><img src="./interno/image/foto.jpg" alt="Foto de Rudnick"></div>
-                    <p style="margin-top: 75px;">A autodescrição é um tanto bizarra de se pensar, nos faz lembrar a essa pergunta: <span class="ciano">Quem sou eu?</span></p>
-                    <p>Então vamos lá.</p>
-                    <p style="margin-top: 100px;">Olá, meu nome é Rudnick Stefane e tenho 24 anos. A programação é algo que surgiu na minha vida de forma inesperada. <span class="ciano">Tudo começou em 2011</span>, período em que eu gostava de jogar jogos como CS 1.6, Tibia, Mu Online, Habbo Hotel e outros.</p>
-                    <p>E, claro, como um entusiasta de jogos, estava muito <span class="ciano">interessado em aprender</span> o que havia por trás dos gráficos. Foi neste ponto que tudo começou; Comecei a pesquisar como cada mecânica funcionava, quais componentes eram necessários e suas <span class="ciano">tecnológias</span>. A partir daí, depois de erros e acertos criei meu primeiro servidor Tibia com meu irmão e posteriormente estudei o básico do <span class="ciano">SQLServer 2000</span> para desenvolver um servidor de Mu Online afim jogar com os amigos.</p>
-                </span>
-                <span class="part2">
-                    <p>Fiquei muito orgulhoso de tudo que havia aprendido, então queria mostrar a todos do que eu sou capaz e convidá-los para jogar nos servidores comigo. No entanto, para alcançar essa visibilidade, um site precisaria ser desenvolvido. Diante disso, iniciei as pesquisas para entender como poderia <span class="ciano">desenvolver um site</span>, que por sinal, no final saiu tudo como esperado.</p>
-                    <p>Bom, saber que <span class="ciano">sou capaz de absorver</span> essas informações é uma sensação incrível e com isso acabei me identificando com a área de <span class="ciano">Front-End e Back-End</span>. Com o tempo, <span class="ciano">desenvolvi vários projetos</span> como hobbies, não visando ganhos financeiros.</p>
-                    <p>Depois de concluir o ensino médio, me mudei para São Paulo (SP) e reservei um tempo em 2017 para me concentrar na busca do meu primeiro emprego, no qual conquistei e como <span class="ciano">decorrência</span> pude adquirir meu primeiro notebook e voltar a programar com mais frequência para projetos pessoais, sem deixar de ficar atento na busca de <span class="ciano">estudos e conhecimentos</span>.</p>
-                    <p>Atualmente, a faculdade de Analise e Desenvolvimento de Sistemas (ADS) está em processo de transição, mas devido a problemas com a própria universidade e, como não gosto de ficar parado terminei recentemente um curso de <span class="ciano">ciência da computação</span> que realmente me deixou maravilhado com as informações obtidas.</p>
-                    <p>Quem sabe em um futuro próximo esteja eu concluindo uma <span class="ciano">graduação em Ciência da Computação</span>.</p>
-                    <p>Fique a vontade para me contatar. :)</p>
-                </span>
-            </div>
-        </div>
-        <div class="cent" id="projetos">
-            <h1>Meus Projetos</h1>
-            <h2>Em andamento</h2>
-            <div class="box-projetos">
-                <div class="imgproject">
-                    <img src="./interno/image/streamingv1.png">
-                </div>
-                <div class="detalhes">
-                    <div class="tecnologia">
-                        <span class="xhtml">xHTML</span>
-                        <span class="css3">CSS3</span>
-                        <span class="javascript">JavaScript</span>
-                    </div>
-                    <div class="titulo">Streaming v1.0.0</div>
+    <div id="sobre" class="container mt-5 custom">
+        <h1 class="container-title">Sobre</h1>
+        <span class="jade mb-4">Um pouco sobre mim</span>
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./src/assets/img/profile.jpg" alt="Foto Perfil" class="img-fluid mb-3 profile-photo">
+                <h3 class="spacing-container">Rudnick Stefane</h3>
+                <div class="spacing-container icon-effect">
+                    <a href="https://github.com/rudnickstefane" target="_blank" title="Github"><i
+                            class="fab fa-github icon-purple"></i></a>
+                    <a href="https://www.linkedin.com/in/rudnickstefane/" class="mr-2 icon-purple" target="_blank"
+                        title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rudnickstefane" class="mr-2" target="_blank" title="Instagram"><i
+                            class="fab fa-instagram icon-purple"></i></a>
+                    <a href="mailto:rudnick.nogueira@gmail.com" class="mr-2" target="_blank" title="E-mail"><i
+                            class="fa-solid fa-envelope icon-purple"></i></a>
                 </div>
             </div>
-            <div class="box-projetos carregando">
-                <div class="detalhes">
-                    <div class="titulo" style="font: normal 1rem Roboto Mono, monospace;">Carregando...</div>
-                </div>
-            </div>
-            <h2>Finalizados</h2>
-            <div class="box-projetos">
-                <div class="imgproject">
-                    <img src="./interno/image/intranetinicio.png">
-                </div>
-                <div class="detalhes">
-                    <div class="tecnologia">
-                        <span class="xhtml">HTML5</span>
-                        <span class="css3">CSS3</span>
-                        <span class="javascript">JavaScript</span>
-                        <span class="javascript">jQuery</span>
-                    </div>
-                    <div class="titulo">Intranet</div>
-                </div>
-            </div>
-            <div class="box-projetos">
-                <div class="imgproject">
-                    <img src="./interno/image/SecretNumberAlura.png">
-                </div>
-                <div class="detalhes">
-                    <div class="tecnologia">
-                        <span class="xhtml">HTML5</span>
-                        <span class="css3">CSS3</span>
-                        <span class="javascript">JavaScript</span>
-                    </div>
-                    <div class="titulo">Secret Number</div>
-                </div>
-            </div>
-            <div class="box-projetos carregando">
-                <div class="detalhes">
-                    <div class="titulo" style="font: normal 1rem Roboto Mono, monospace;">Carregando...</div>
-                </div>
+            <div class="col-md-8">
+                <p>Entusiasmado em aprender e contribuir, sou um <span class="text-purple">Desenvolvedor Backend</span>
+                    com
+                    foco na transformação de ideias em <span class="text-purple">soluções eficientes e
+                        inovadoras</span>.
+                </p>
+
+                <p>Dedico-me ao desenvolvimento e construção <span class="text-purple">robusta</span> de aplicações e
+                    sistemas, utilizando linguagens como <span class="text-purple">C#, PHP, JavaScript</span> e <span
+                        class="text-purple">TypeScript</span>.
+                    Atualmente, estou aprimorando minhas habilidades em <span class="text-purple">Node.js</span>,
+                    enfrentando <span class="text-purple">desafios técnicos complexos</span>.</p>
+
+                <p>Além do backend, tenho uma sólida base em <span class="text-purple">tecnologias front-end</span>,
+                    incluindo <span class="text-purple">React JS</span>. Isso me permite contribuir para a criação de
+                    interfaces que são não apenas funcionais, mas também <span class="text-purple">intuitivas</span> e
+                    <span class="text-purple">
+                        interativas</span>.
+                </p>
+
+                <p>Minha <span class="text-purple">curiosidade</span> e <span class="text-purple">criatividade</span> me
+                    impulsionam na busca constante por <span class="text-purple">novas soluções</span>. Estou sempre
+                    explorando diferentes abordagens para solucionar problemas, pensando fora da
+                    caixa.</p>
+
+                <p>Em constante <span class="text-purple">aprimoramento</span>, estou sempre explorando <span
+                        class="text-purple">novas tecnologias</span> e técnicas para agregar mais valor aos projetos em
+                    que
+                    trabalho. Sou movido pela busca contínua por <span class="text-purple">excelência técnica</span> e
+                    comprometido com a entrega de <span class="text-purple">soluções de alta qualidade</span>.</p>
             </div>
         </div>
     </div>
-    <span class="tags bottom-tag">&lt;/html&gt;</span>
+    <div id="skills" class="container mt-5 custom">
+        <h1 class="mb-4 container-title">Competências<span class="container-title-purple"> & Habilidades</span></h1>
+        <div class="card-container text-center">
+            <div class="card text-white card-primary orange">
+                <div class="card-body">
+                    <i class="fab fa-html5"></i>
+                    <p class="card-text">HTML5</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary blue">
+                <div class="card-body">
+                    <i class="fab fa-css3"></i>
+                    <p class="card-text">CSS3</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary pink">
+                <div class="card-body">
+                    <i class="fa-brands fa-sass"></i>
+                    <p class="card-text">Sass</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary purple">
+                <div class="card-body">
+                    <i class="fab fa-bootstrap"></i>
+                    <p class="card-text">Bootstrap</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary yellow">
+                <div class="card-body">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p class="card-text">JavaScript</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary yellow">
+                <div class="card-body">
+                    <img src="./src/assets/img/ts.png">
+                    <p class="card-text">TypeScript</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary cleanblue">
+                <div class="card-body">
+                    <img src="./src/assets/img/uiux.jpeg" style="border-radius: 5px;">
+                    <p class="card-text">UI & UX</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary blue">
+                <div class="card-body">
+                    <i class="fab fa-react"></i>
+                    <p class="card-text">React</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary green">
+                <div class="card-body">
+                    <i class="fa-brands fa-node-js"></i>
+                    <p class="card-text">Node.js</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary">
+                <div class="card-body">
+                    <img src="./src/assets/img/c.webp"
+                        style="background: rgba(255, 255, 255, 80%); border-radius: 100%;">
+                    <p class="card-text">C#</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary darkblue">
+                <div class="card-body">
+                    <i class="fa-brands fa-php"></i>
+                    <p class="card-text">PHP</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary darkblue">
+                <div class="card-body">
+                    <i class="fa-solid fa-database"></i>
+                    <p class="card-text">PostgreSQL</p>
+                </div>
+            </div>
+            <div class="card text-white card-primary gray">
+                <div class="card-body">
+                    <i class="fa-brands fa-connectdevelop"></i>
+                    <p class="card-text">APIs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projetos" class="container mt-5 custom">
+        <h1 class="mb-4 container-title">Meus Projetos</h1>
+        <span class="jade mb-4">Em desenvolvimento</span>
+        <div class="row">
+            <div class="col-md-4 mb-4 custom-col">
+                <div class="card text-white card-primary project-card text-center">
+                    <img src="./src/assets/img/streamingv1.png" alt="Nome do Projeto"
+                        class="card-img-top mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Streaming v1.0.0</h5>
+                        <p class="card-tags" style="display: none;">XHTML, CSS3, JAVASCRIPT</p>
+                        <div class="card-gallery" style="display: none;">src/assets/img/streamingv1.png,
+                            src/assets/img/streamingIntv1.png</div>
+                        <div class="card-notify" style="display: none;">Ops! Esse recurso não está disponível no
+                            momento. </div>
+                        <p class="card-description" style="display: none;">O "Projeto Streaming v1.0.0" é um modelo
+                            avançado para o Blogger do Google, meticulosamente desenhado para espelhar a estética e a
+                            funcionalidade da Netflix. Este tema dinâmico e fluído oferece uma variedade de recursos
+                            inovadores, proporcionando uma experiência de usuário excepcional e imersiva, ideal para
+                            plataformas de streaming de conteúdo.</p>
+                        <button class="btn custom-btn" onclick="abrirDetalhes(this)">Ver Detalhes</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="jade mb-4">Concluídos</span>
+        <div class="row custom">
+            <div class="col-md-4 mb-4 custom-col">
+                <div class="card text-white card-primary project-card text-center">
+                    <img src="./src/assets/img/intranetinicio.png" alt="Nome do Projeto"
+                        class="card-img-top mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Intranet</h5>
+                        <p class="card-tags" style="display: none;">HTML5, CSS3, JAVASCRIPT, JQUERY</p>
+                        <div class="card-gallery" style="display: none;">src/assets/img/intranetinicio.png,
+                            src/assets/img/intranetequipe.png, src/assets/img/intranetconfig.png,
+                            src/assets/img/intranetconfig2.png, src/assets/img/intranetconfig3.png</div>
+                        <div class="card-notify" style="display: none;">Ops! Esse recurso não está disponível no
+                            momento. </div>
+                        <p class="card-description" style="display: none;">O "Projeto Intranet" é uma solução de
+                            intranet sob medida, projetada especificamente para otimizar as operações em centros de
+                            atendimento. Esta plataforma intuitiva permite personalização e categorização de tópicos na
+                            página inicial, adaptando-se às necessidades dinâmicas do call center. A funcionalidade
+                            "Nossa Equipe" fornece uma visão clara dos membros atuais do time. Além disso, o Projeto
+                            Intranet inclui um painel de controle interativo, de acesso restrito, que permite aos
+                            usuários autorizados publicar tópicos, gerenciar membros da equipe, adicionar listas de
+                            programas, informar descontos, e estabelecer regras de negócio, entre outras funcionalidades
+                            avançadas.</p>
+                        <button class="btn custom-btn" onclick="abrirDetalhes(this)">Ver Detalhes</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 custom-col">
+                <div class="card text-white card-primary project-card text-center">
+                    <img src="./src/assets/img/SecretNumberAlura.png" alt="Nome do Projeto"
+                        class="card-img-top mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Secret Number</h5>
+                        <p class="card-tags" style="display: none;">HTML5, CSS3, JAVASCRIPT</p>
+                        <div class="card-gallery" style="display: none;">src/assets/img/SecretNumberAlura.png</div>
+                        <div class="card-notify" style="display: none;">Ops! Esse recurso não está disponível no
+                            momento. </div>
+                        <p class="card-description" style="display: none;">O "Projeto Secret Number" é uma experiência
+                            imersiva de aprendizado, desenvolvida em parceria com a plataforma Alura. Consiste em um
+                            jogo desafiador onde, após o início, os jogadores são convidados a decifrar um número
+                            misterioso, gerado aleatoriamente pelo código do jogo. Este projeto não só engaja os
+                            participantes em uma atividade lúdica e empolgante, mas também estimula o desenvolvimento de
+                            habilidades de lógica e programação.</p>
+                        <button class="btn custom-btn" onclick="abrirDetalhes(this)">Ver Detalhes</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contato" class="container mt-5 custom contact-with-bubbles">
+        <h1 class="mb-4 container-title">Contato</h1>
+        <span class="jubl mb-4">Se você tem perguntas, sugestões ou gostaria de discutir oportunidades de trabalho ou
+            colaboração, sinta-se à vontade para entrar em contato comigo através das redes sociais ou por e-mail. Estou
+            sempre aberto a novas ideias e projetos interessantes!</span>
+        <div class="contact-custom">
+
+            <div class="contact-box">
+                <p>
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/rudnickstefane" target="_blank">@rudnickstefane</a>
+                </p>
+                <p>
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/rudnickstefane" target="_blank">linkedin.com/rudnickstefane</a>
+                </p>
+            </div>
+
+            <div class="contact-box">
+                <p>
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/rudnickstefane" target="_blank">github.com/rudnickstefane</a>
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:rudnick.nogueira@gmail.com">rudnick.nogueira@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay" onclick="fecharDetalhes()" style="display:none;"></div>
+    <div id="detalhesBox" style="display:none;">
+        <div class="box-detalhes">
+            <div class="box-titulo">
+                <h3 id="nomeProjeto" class="text-white truncate-text"></h3>
+                <div id="projetoTags" class="truncate-text"></div>
+                <button class="btn btn-close btn-close-white" onclick="fecharDetalhes()"></button>
+            </div>
+            <div class="box-conteudo bg-white">
+                <p id="descricaoProjeto"></p>
+                <a href="javascript:void(0);" class="btn custom-btn" onclick="abrirNotifyBox()"><i
+                        class="fa-solid fa-up-right-from-square"></i>
+                    Acessar</a>
+                <button class="btn custom-btn" onclick="abrirGaleria()"><i class="fa-regular fa-images"></i>
+                    Galeria</button>
+                <button class="btn custom-btn" onclick="abrirNotifyBox(this)"><i class="fa-solid fa-video"></i>
+                    Vídeo</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay-gallery" onclick="fecharGaleria()" style="display:none;"></div>
+    <div id="galeriaBox" style="display:none;">
+        <div class="container">
+            <div class="row galeria-custom">
+                <div class="col-12 no-padding">
+                    <img id="imagemAmpliada" src="" alt="Imagem Ampliada" style="display: none;">
+                    <p id="mensagemInicial">Selecione uma foto abaixo</p>
+                </div>
+            </div>
+            <div class="row galeria-miniaturas">
+            </div>
+            <a href="javascript:void(0);" class="btn btn-custom" onclick="fecharGaleria()"><i
+                    class="fa-solid fa-circle-xmark"></i></a>
+        </div>
+    </div>
+
+    <div id="overlay-notify" onclick="fecharNotifyBox()" style="display:none;"></div>
+    <div id="notifyBox" style="display:none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p id="notifyMessage"></p>
+                </div>
+            </div>
+            <button class="btn custom-btn" onclick="fecharNotifyBox()">OK</button>
+        </div>
+    </div>
+
+    <a id="btnScrollTop" style="display: none;" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></a>
+
+    <footer>
+        <div class="logo">
+            <span class="bold-text">
+                &lt; / Rudnick</span> <span class="light-text">Stefane &gt;</span>
+            <div id="developer-text" class="developer-text">DESENVOLVEDOR FULL-STACK</div>
+        </div>
+        <p>&copy; <span id="currentYear"></span></p>
+    </footer>
 </body>
+
 </html>
