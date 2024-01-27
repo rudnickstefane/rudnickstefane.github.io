@@ -66,6 +66,7 @@ body {
 
 .row.custom {
     min-height: 26.786rem;
+    justify-content: center;
 }
 
 .container-title {
@@ -269,9 +270,8 @@ header {
 }
 
 .nav-item {
-    margin-left: 1.786rem;
+    margin: 1rem;
 }
-
 
 .navbar-nav .nav-link {
     color: #fff;
@@ -407,23 +407,22 @@ header {
     color: #41a682;
 }
 
-.jade:before {
-    content: '';
-    width: 9rem;
-    height: 1px;
-    background: #41a682;
-    float: left;
-    margin-top: 0.8rem;
-    margin-right: 1rem
-}
-
+.jade:before,
 .jade:after {
     content: '';
     width: 9rem;
     height: 1px;
     background: #41a682;
-    float: right;
     margin-top: 0.8rem;
+}
+
+.jade:before {
+    float: left;
+    margin-right: 1rem
+}
+
+.jade:after {
+    float: right;
     margin-left: 1rem;
 }
 
@@ -558,6 +557,7 @@ a.btn-custom:hover {
 #projetoTags {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #projetoTags:before {
@@ -660,6 +660,35 @@ a.btn-custom:hover {
     border-radius: 10px;
     z-index: 1070;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .jade:before,
+    .jade:after {
+        width: 2rem;
+    }
+
+    #galeriaBox {
+        width: 100%;
+    }
+
+    .box-titulo {
+        flex-direction: column;
+    }
+
+    #projetoTags {
+        margin-top: 15px;
+    }
+
+    .contact-custom {
+        height: 19rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 footer {
