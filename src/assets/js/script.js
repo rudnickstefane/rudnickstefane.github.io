@@ -23,10 +23,10 @@ function abrirDetalhes(button) {
     const cardTitle = card.querySelector('.card-title').innerText;
     const cardTags = card.querySelector('.card-tags').innerText.split(', ');
     const cardDescription = card.querySelector('.card-description').textContent;
+    const cardUrl = card.querySelector('.card-url') ? card.querySelector('.card-url').textContent.trim() : '';
 
     document.getElementById('nomeProjeto').innerText = cardTitle;
     document.getElementById('descricaoProjeto').textContent = cardDescription;
-    const tagsContainer = document.createElement('div');
 
     nomeProjeto.innerText = cardTitle;
     descricaoProjeto.textContent = cardDescription;
@@ -43,6 +43,18 @@ function abrirDetalhes(button) {
     const detalhesBox = document.getElementById('detalhesBox');
     detalhesBox.style.display = 'block';
     setTimeout(() => detalhesBox.style.transform = 'translateY(0)', 10);
+
+    const linkAcessar = detalhesBox.querySelector('.btn.custom-btn');
+
+    if (cardUrl) {
+        linkAcessar.setAttribute('href', cardUrl);
+        linkAcessar.setAttribute('onclick', '');
+        linkAcessar.setAttribute('target', '_blank');
+    } else {
+        linkAcessar.setAttribute('href', 'javascript:void(0);');
+        linkAcessar.setAttribute('onclick', 'abrirNotifyBox()');
+        linkAcessar.removeAttribute('target');
+    }
 
     document.documentElement.style.overflow = 'hidden';
 }
